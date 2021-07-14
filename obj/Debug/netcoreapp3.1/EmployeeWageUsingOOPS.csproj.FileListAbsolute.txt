@@ -1,0 +1,13 @@
+E:\C#\EmployeeWageUsingOOPS\obj\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.csproj.AssemblyReference.cache
+E:\C#\EmployeeWageUsingOOPS\obj\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.AssemblyInfoInputs.cache
+E:\C#\EmployeeWageUsingOOPS\obj\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.AssemblyInfo.cs
+E:\C#\EmployeeWageUsingOOPS\obj\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.csproj.CoreCompileInputs.cache
+E:\C#\EmployeeWageUsingOOPS\bin\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.exe
+E:\C#\EmployeeWageUsingOOPS\bin\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.deps.json
+E:\C#\EmployeeWageUsingOOPS\bin\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.runtimeconfig.json
+E:\C#\EmployeeWageUsingOOPS\bin\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.runtimeconfig.dev.json
+E:\C#\EmployeeWageUsingOOPS\bin\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.dll
+E:\C#\EmployeeWageUsingOOPS\bin\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.pdb
+E:\C#\EmployeeWageUsingOOPS\obj\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.dll
+E:\C#\EmployeeWageUsingOOPS\obj\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.pdb
+E:\C#\EmployeeWageUsingOOPS\obj\Debug\netcoreapp3.1\EmployeeWageUsingOOPS.genruntimeconfig.cache
