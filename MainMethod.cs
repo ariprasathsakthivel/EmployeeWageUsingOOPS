@@ -2,11 +2,12 @@
 
 namespace EmployeeWageUsingOOPS
 {
-    class Program
+    class MainMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation Program");
+            EmployeeWage employee1 = new EmployeeWage();
+            employee1.EmpCheck();
         }
     }
 }
