@@ -11,11 +11,13 @@ namespace EmployeeWageUsingOOPS
         int EMP_RATE_PER_HOUR;
         int NUM_OF_WORKING_DAYS;
         int MAX_HRS_IN_MONTH;
-        public EmployeeWage(int empRatePerHour, int numOfWorkingDays, int maxHrsInMonth)
+        string COMPANY_NAME;
+        public EmployeeWage(string companyName, int empRatePerHour, int numOfWorkingDays, int maxHrsInMonth)
         {
             this.EMP_RATE_PER_HOUR = empRatePerHour;
             this.NUM_OF_WORKING_DAYS = numOfWorkingDays;
             this.MAX_HRS_IN_MONTH = maxHrsInMonth;
+            this.COMPANY_NAME = companyName;
         }
         public void EmpCheck()
         {
@@ -41,7 +43,11 @@ namespace EmployeeWageUsingOOPS
                 Console.WriteLine("Days#:" + totalWorkingDays + "Emp Hrs : " + empHrs);
             }
             int totalEmpwage = totalEmpHrs * this.EMP_RATE_PER_HOUR;
-            Console.WriteLine("Total Emp Wage : " + totalEmpwage);
+            EmpWageBuilder(totalEmpwage);
+        }
+        public void EmpWageBuilder(int totalEmpwage)
+        {
+            Console.WriteLine("Total Emp Wage for {0} is {1}", this.COMPANY_NAME, totalEmpwage);
         }
     }
 }
