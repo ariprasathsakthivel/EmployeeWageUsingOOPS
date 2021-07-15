@@ -6,7 +6,8 @@ namespace EmployeeWageUsingOOPS
     {
         static void Main(string[] args)
         {
-            EmployeeWage.EmpCheck();
+            EmployeeWage employee1 = new EmployeeWage(100, 20, 150);
+            employee1.EmpCheck();
         }
     }
 }
