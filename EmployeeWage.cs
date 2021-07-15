@@ -22,7 +22,7 @@ namespace EmployeeWageUsingOOPS
         public void EmpCheck()
         {
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
-            while (totalEmpHrs <= this.MAX_HRS_IN_MONTH && totalWorkingDays < this.NUM_OF_WORKING_DAYS)
+            while (totalEmpHrs <= this.MAX_HRS_IN_MONTH && totalWorkingDays <= this.NUM_OF_WORKING_DAYS)
             {
                 totalWorkingDays++;
                 Random random = new Random();
