@@ -11,13 +11,14 @@ namespace EmployeeWageUsingOOPS
         public const int EMP_RATE_PER_HOUR = 20;
         public const int NUM_OF_WORKING_DAYS = 20;
         public const int MAX_HRS_IN_MONTH = 100;
-        public void EmpCheck()
+        public static void EmpCheck()
         {
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
-            Random random = new Random();
-            int empCheck = random.Next(0, 3);
             while (totalEmpHrs <= MAX_HRS_IN_MONTH && totalWorkingDays < NUM_OF_WORKING_DAYS)
             {
+                totalWorkingDays++;
+                Random random = new Random();
+                int empCheck = random.Next(0, 3);
                 switch (empCheck)
                 {
                     case IS_PART_TIME:
