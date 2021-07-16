@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EmployeeWageUsingOOPS
 {
-    class EmployeeWage
+    class EmployeeWage : IComputeEmpWage
     {
         public const int IS_FULL_TIME = 1;
         public const int IS_PART_TIME = 2;
