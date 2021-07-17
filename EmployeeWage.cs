@@ -8,13 +8,11 @@ namespace EmployeeWageUsingOOPS
     {
         public const int IS_FULL_TIME = 1;
         public const int IS_PART_TIME = 2;
-        private CompanyEmpWage[] companyList = new CompanyEmpWage[10];
-        static int count = 0;
+        private List<CompanyEmpWage> companyList= new List<CompanyEmpWage>();
         public void AddCompanyEmpWage(string companyName, int empRatePerHour, int numOfWorkingDays, int maxHrsInMonth)
         {
             CompanyEmpWage company = new CompanyEmpWage(companyName, empRatePerHour, numOfWorkingDays, maxHrsInMonth);
-            this.companyList[count] = company;
-            count++;
+            this.companyList.Add(company);
         }
         public void computeEmpWage()
         {
