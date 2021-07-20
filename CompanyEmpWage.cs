@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EmployeeWageUsingOOPS
 {
-    class CompanyEmpWage
+    public class CompanyEmpWage
     {
         public string company;
         public int empRatePerHour;
@@ -19,6 +19,15 @@ namespace EmployeeWageUsingOOPS
             this.numOfWorkingDays = numOfWorkingDays;
             this.maxHoursPerMonth = maxHoursPerMonth;
             this.totalEmpWage = 0;
+        }
+        public void setTotalEmpWage(int totalEmpWage)
+        {
+            this.totalEmpWage = totalEmpWage;
+        }
+
+        public string toString()
+        {
+            return "Total Emp Wage for Company: " + this.company + " is: " + this.totalEmpWage;
         }
     }
 }
